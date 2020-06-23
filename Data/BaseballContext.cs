@@ -42,6 +42,21 @@ namespace Data
 
     public class Player
     {
+        public Player()
+        {
+
+        }
+        public Player(int playerId, string name, int teamId, Position position, DateTime dob, int weight, int height)
+        {
+            PlayerId = PlayerId;
+            Name = name;
+            TeamId = teamId;
+            Position = position;
+            DOB = dob;
+            Weight = weight;
+            Height = height;
+        }
+
         [Required]
         public int PlayerId { get; set; }
         public string Name { get; set; }

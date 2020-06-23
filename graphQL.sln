@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockData", "MockData\MockDa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{93330409-FAD3-476C-9101-FDB5D94B101A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotChocolateServer", "HotChocolate\HotChocolateServer.csproj", "{98D1EDB9-EE96-4BCF-8FCC-46502B4D3500}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotChocolateServer", "HotChocolateServer\HotChocolateServer.csproj", "{A08B222D-A52A-46AF-A942-FD58DD4664CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{93330409-FAD3-476C-9101-FDB5D94B101A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93330409-FAD3-476C-9101-FDB5D94B101A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93330409-FAD3-476C-9101-FDB5D94B101A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{98D1EDB9-EE96-4BCF-8FCC-46502B4D3500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{98D1EDB9-EE96-4BCF-8FCC-46502B4D3500}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{98D1EDB9-EE96-4BCF-8FCC-46502B4D3500}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{98D1EDB9-EE96-4BCF-8FCC-46502B4D3500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08B222D-A52A-46AF-A942-FD58DD4664CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08B222D-A52A-46AF-A942-FD58DD4664CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08B222D-A52A-46AF-A942-FD58DD4664CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08B222D-A52A-46AF-A942-FD58DD4664CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
