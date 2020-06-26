@@ -20,7 +20,10 @@ namespace HotChocolateServer
         public void ConfigureServices(IServiceCollection services)
         {
             GenerateData.Generate();
-            services.AddGraphQL(SchemaBuilder.New().AddQueryType<Query>());
+            services.AddGraphQL(SchemaBuilder.New()
+                .AddQueryType<Query>()
+                .AddMutationType<Mutation>()
+                .Create());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
